@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="asset/css/css.css" />
+
+    <title>Fstore</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header class="sticky-top">
+      <div id="sidebars_" class="header_">
+        <div class="container">
+          <div class="nav_">
+            <h3 class="logo_"><b>F</b>-Store</h3>
+            <div class="floating_" id="sidebars_menu">
+              <nav>
+                <ul class="nav__links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="produk.html">produk</a></li>
+                  <li><a href="produk-Pria.html">Pria</a></li>
+                  <li><a href="produk-Wanita.html">Wanita</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="group_">
+              <div class="btnRight_">
+                <div class="search_">
+                  <span class="icon_l">
+                    <a href="my-cart.html" class="links_">
+                      <svg
+                        class=""
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="white"
+                        class="bi bi-cart3"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                      </svg>
+                    </a>
+                    <a href="my-account.html" class="links_">
+                      <svg
+                        class=""
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        fill="white"
+                        class="bi bi-person"
+                        viewBox="0 0 16 16">
+                        <path
+                          d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                      </svg>
+                    </a>
+                  </span>
+                  <span class="icon_">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="white"
+                      class="bi bi-search searchBtn_"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="white"
+                      class="bi bi-x closeBtn_"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                  </span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="white"
+                    class="bi bi-list menuToggle_"
+                    viewBox="0 0 16 16">
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                  </svg>
+                </div>
+                <div class="searchBox_">
+                  <input type="text" placeholder="Search..." />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navbar end -->
+
+    <div class="container d-flex justify-content-center py-4 text-center">
+      
+        <form action="" class="form-singup text-secondary">
+          <h2>Register</h2>
+          <p>Create your account</p>
+          <div class="row ">
+            <div class="form-floating col-md mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="namexample">
+              <label class="px-4" for="floatingInput">Nama Depan</label>
+            </div>
+            <div class="form-floating col-md mb-3">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="namexample">
+              <label class="px-4" for="floatingPassword">Nama Belakang</label>
+            </div>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="userxample">
+            <label class="" for="floatingInput">Username</label>
+          </div>
+          <div class="form-floating mb-3">            
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label class="" for="floatingInput">Alamat E-Mail</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label class="" for="floatingInput">Kata Sandi</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Konfirmasi Password">
+            <label class="" for="floatingPassword">Konfirmasi Kata Sandi</label>
+          </div>
+          
+         
+          <div class="form-floating mb-3">
+            <select class="form-select text-secondary" id="floatingSelect" aria-label="Floating label select example">
+              <option selected></option>
+              <option value="pribadi">Pribadi</option>
+              <option value="reseller">Reseller</option>
+            </select>
+            <label for="floatingSelect">Tipe Akun</label>
+          </div>
+
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+            <label class="form-check-label text-secondaryor" for="flexCheckIndeterminate">
+              Saya telah membaca dan menyetujui <a class="form-check-label text-decoration-underline link-dark fs-6" href="#Syarat&Ketentuan">Syarat & Ketentuan Pendaftaran F-Store</a>
+            </label>
+          </div>
+
+          <button class="mb-3 btn btn-lg btn-secondary" type="submit">Registrasi
+
+          </button>
+
+        </form>
+    </div>
+
+
+    <footer class="footer_ ">
+      <div class="container py-5">
+        <div class="row justify-content-center d-flex">
+          <div class="col-lg-4 col-md">
+            <h5><strong>LOGO</strong></h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="link-secondary" href="#">Ketentuan Pengiriman</a>
+              </li>
+              <li>
+                <a class="link-secondary" href="#"
+                  >Kebijakan Penukaran & Pengembalian</a
+                >
+              </li>
+              <li><a class="link-secondary" href="#">Program Reseller</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md ">
+            <h5><strong>Bantuan dan Panduan</strong></h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Kebijakan Privasi</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md ">
+            <h5><strong>About</strong></h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Instagram</a></li>
+              <li><a class="link-secondary" href="#">Facebook</a></li>
+              <li><a class="link-secondary" href="#">Shoopy</a></li>
+              <li><a class="link-secondary" href="#">BukaLapak</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_Cpr text-center">
+        <div class="container">
+          <small class="d-block text-muted py-2"
+            ><span class="copy_right">&copy; 2017–2022</span></small
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="asset/bootstrap/js/bootstrap.bundle.js">
+      //
+    </script>
+
+    <script src="asset/bootstrap/js/bootstrap.bundle.min.js">
+      //bootstrap
+    </script>
+
+    <script>
+      let searchBtn = document.querySelector(".searchBtn_");
+      let closeBtn = document.querySelector(".closeBtn_");
+      let searcBox = document.querySelector(".searchBox_");
+      let menuToggle = document.querySelector(".menuToggle_");
+      let header = document.querySelector(".header_");
+      let iconL = document.querySelector(".icon_l");
+
+      searchBtn.onclick = function () {
+        searcBox.classList.add("active_");
+        closeBtn.classList.add("active_");
+        searchBtn.classList.add("active_");
+        menuToggle.classList.add("hide_");
+        iconL.classList.add("hide_");
+      };
+
+      closeBtn.onclick = function () {
+        searcBox.classList.remove("active_");
+        closeBtn.classList.remove("active_");
+        searchBtn.classList.remove("active_");        
+        menuToggle.classList.remove("hide_");
+        iconL.classList.remove("hide_");
+      };
+
+      menuToggle.onclick = function () {
+        header.classList.toggle("open_");
+        searcBox.classList.remove("active_");
+        closeBtn.classList.remove("active_");
+        searchBtn.classList.remove("active_");
+      };
+    </script>
+
+  </body>
+</html>
